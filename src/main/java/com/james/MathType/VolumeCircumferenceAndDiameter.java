@@ -96,7 +96,6 @@ public class VolumeCircumferenceAndDiameter extends Shapes implements IShapes {
 		}
 		
 		return total;
-																// Tools | Templates.
 	}
 
 	@Override
