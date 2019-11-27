@@ -2,7 +2,7 @@ package com.james.MathType;
 
 import com.james.Shapes.*;
 
-public class Perimeters extends Shapes implements IShapes {
+public class Perimeters extends ShapesJ implements IShapes {
 	private double sideLength;
 	private double baseLength;
 	private double height;
