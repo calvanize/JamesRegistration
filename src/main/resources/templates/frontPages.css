@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+body {
+	font-weight: bold;
+	font-family: sans-serif;
+	font-style: inherit;
+	background-color: black;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	color: beige;
+	clear: both;
+}
+.navigator{
+	margin: 30px 200px;
+}
+nav{
+	margin:10px 150px;
+	background-color: inactiveborder;
+}
+a{
+	text-decoration: none;
+}
+#theShapes {
+	width: 40%;
+	background-color: teal;
+	height: 285px;
+	margin: 3px;
+}
+#shapes{
+	width: 90%;
+	margin: 10%;
+}
+.flex-container {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	 flex-direction: row;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-item {
+	justify-content: space-around;
+	margin: 2px;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	border-radius: 2px;
+}
