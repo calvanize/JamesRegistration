@@ -2,7 +2,7 @@ package com.james.MathType;
 
 import com.james.Shapes.*;
 
-public class VolumeCircumferenceAndDiameter extends Shapes implements IShapes {
+public class VolumeCircumferenceAndDiameter extends ShapesJ implements IShapes {
 
 	private final double PI = 3.14;
 	private double radius;
