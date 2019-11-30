@@ -5,6 +5,12 @@ public class Parallelogram implements TwoDShape {
 	private double base;
 	private double side;
 	private double height;
+	
+	public Parallelogram(double base, double side, double height) {
+		this.base = base;
+		this.side = side;
+		this.height = height;
+	}
 
 	public double getBase() {
 		return base;
