@@ -1,15 +1,15 @@
 package com.james.jamesRegistration.web;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.james.jamesRegistration.service.ShapeService;
 import com.james.jamesRegistration.web.formdata.ShapeType;
 
-@Controller
+@RestController
 public class ShapesController {
 	private static final String DATA = "data";
 	private static final String VIEW = "shapecalculator";
