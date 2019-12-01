@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Cone</title>
-<link rel="stylesheet" href="Main.css" />
-<link rel="stylesheet" href="frontPages.css" />
+	<meta charset="ISO-8859-1">
+	<title>Cone</title>
+	<link rel="stylesheet" href="Main.css" />
+	<link rel="stylesheet" href="frontPages.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/general.js"></script>
 </head>
 <body>
 	<div id="wrpper">
@@ -29,18 +31,23 @@
 
 		<div class="main">
 			<div class="content">
-				<h4>FORMULA</h4>
-				<p>
-					A = &Pi; r(r+&#8730;h<sup>2</sup>+r<sup>2</sup>)
-				</p>
-				<p>r is Radius 	<input type="text" value="Enter value"></p>
-				<p>h is Height 	<input type="text" value="Enter value"></p>
-			<button value="CALCULATE" style="width: 65%;height: 40px;
-			color: black;">CALCULATE</button>
+				<form id="form" method="post" action="/surface_area/CONE">
+					<h4>FORMULA</h4>
+					<p>
+						A = &Pi; r(r+&#8730;h<sup>2</sup>+r<sup>2</sup>)
+					</p>
+					<p>
+						r is Radius <input type="text" placeholder="Enter value" name="radius">
+					</p>
+					<p>
+						h is Height <input type="text" placeholder="Enter value" name="height">
+					</p>
+					<input type="submit" value="CALCULATE" style="width: 65%; height: 40px; color: black;">
+				</form>
 			</div>
 			<div class="img">
 				<img src="images/cone.png" alt="cone" width="280" height="200">
-				<input type="text">
+				<input id="result" type="text">
 			</div>
 			
 		</div>
